@@ -1,0 +1,13 @@
+node_modules
+/node_modules
+/npm-debug.log
+.DS_Store
+/_dev
+/coverage
+package-lock.json
+/test/ts/**/*.js
+yarn.lock
+
+# Editor and IDE configuration
+.vscode/
+.idea/

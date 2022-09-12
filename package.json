@@ -1,0 +1,25 @@
+{
+  "name": "zip-webpack-plugin-v2",
+  "version": "1.0.3",
+  "description": "Webpack plugin to zip up file with more config",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Yizhi Chen",
+  "license": "ISC",
+  "dependencies": {
+    "jszip": "^3.6.0"
+  },
+  "peerDependencies": {
+    "webpack": "^4.0.0",
+    "webpack-sources": "*"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "rimraf": "^3.0.2"
+  }
+}
